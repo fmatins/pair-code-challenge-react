@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech stuff
 
-## Available Scripts
+- Node 10.16.0 or later version
+- Any editor or IDE of your preference
 
-In the project directory, you can run:
+## Check beforehand
 
-### `yarn start`
+- Internet connection is available;
+- Quiet place;
+- Code-base is running as expected.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Suggestion on how to proceed with the pair session
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Duration: 1h10m
+- First 5 minutes: Explaining the challenge itself (see "Challenge suggestion" below)
+- Next 5 minutes: Ask the candidate to explain how they would implement that in code. This part is crucial since we won't be able to see the final code in ~1 hour, but we will know how the candidate would tackle the whole problem in theory.
+- Next 50 minutes: Pairing and rotating the keyboard every 10 minutes
+- Last 5 minutes: Ask for feedback on how we can improve
 
-### `yarn test`
+## Challenge suggestion
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Implement a selectable list of items with the "Check all" control, which should have the correct state based on the selected items.
 
-### `yarn build`
+### Check all states:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Checked (all the items are selected)
+- Unchecked (no items are selected)
+- Indeterminate (some items are selected)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Do not:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Do not write any visual style (CSS)
