@@ -21,6 +21,8 @@
 
 Implement a selectable list of items with the "Check all" control, which should have the correct state based on the selected items.
 
+<img src="https://user-images.githubusercontent.com/2061821/77397301-6e1e8680-6df9-11ea-84b2-1ab272ed7e7d.gif" />
+
 ### Check all states:
 
 - Checked (all the items are selected)
