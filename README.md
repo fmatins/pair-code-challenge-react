@@ -29,6 +29,15 @@ Implement a selectable list of items with the "Check all" control, which should 
 - Unchecked (no items are selected)
 - Indeterminate (some items are selected)
 
+### Alternative implementation
+
+This implementation uses 100% controlled components
+https://codesandbox.io/s/multiple-checkboxes-0lm1y
+
+References:
+- https://reactjs.org/docs/uncontrolled-components.html
+- https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/
+
 ### Do not:
 
 - Do not write any visual style (CSS)
